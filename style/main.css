@@ -62,9 +62,10 @@ header nav a:hover{
 .botao{
     background-color: rgba( 0, 0, 0,.50);
     border: none;
-    color: white;
+    color: white; 
     
     padding: 15px 30px;
+    margin-bottom: 15px;
     margin-right: 15px;
     font-size: 12px;
     
@@ -73,7 +74,7 @@ header nav a:hover{
 }
 .botao :hover{
     background-color: white;
-    color: black;
+   color: var(--preto);
 }
 .botao i{
     margin-right: 8px ;
